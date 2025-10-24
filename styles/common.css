@@ -89,6 +89,13 @@ body {
   padding: 25px;
 }
 
+.container h1 {
+  color: #2c3e50;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 20px;
+  padding: 0 20px;
+}
 .container h3 {
   color: #2c3e50;
   font-weight: bold;
@@ -116,10 +123,11 @@ body {
 .right {
   flex: 50%;
   width: 100%;
+  background-color: azure;
 }
 
 .right img {
-  height: 100%;
+  height: auto;
   text-align: center;
   width: 100%;
 }
